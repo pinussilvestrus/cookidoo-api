@@ -20,6 +20,10 @@ An unofficial python package to access Cookidoo.
 
 The developers of this module are in no way endorsed by or affiliated with Cookidoo or Vorwerk, or any associated subsidiaries, logos or trademarks.
 
+## Requirements
+
+- Python 3.12+
+
 ## Installation
 
 `pip install cookidoo-api`
@@ -78,7 +82,7 @@ asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 Setup the dev environment using VSCode, it is highly recommended.
 
 ```bash
-python -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements_dev.txt
 ```
